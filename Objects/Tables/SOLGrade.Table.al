@@ -19,7 +19,7 @@ table 50130 "SOL Grade"
                 if "No." <> xRec."No." then begin
 
                     NoSeriesMgmt.TestManual("No. Series");
-                    "No. Series" := '';
+                    "No. Series" := '';                    
 
                 end;
             end;
@@ -96,4 +96,5 @@ table 50130 "SOL Grade"
         end;
 
     end;
+
 }
