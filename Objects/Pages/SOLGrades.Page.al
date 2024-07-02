@@ -30,11 +30,11 @@ page 50130 "SOL Grades"
                 field("No. Series"; Rec."No. Series")
                 {
                     ToolTip = 'Grade No Series';
-                    Caption = 'Description';
+                    Caption = 'No. Series';
                 }
             }
 
-        }   
+        }
         area(FactBoxes)
         {
             systempart(RecordLinks; Links)
@@ -45,6 +45,6 @@ page 50130 "SOL Grades"
             {
                 ApplicationArea = All;
             }
-        }     
+        }
     }
 }
